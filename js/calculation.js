@@ -45,17 +45,11 @@ const calculateBalance = document.getElementById('calculate-button').addEventLis
     } else {
         const totalBalanceIs = document.getElementById('total-balance').innerText = 'Your balance is low';
         document.getElementById("save-button").disabled = true;
-
         alert('your balance low');
-
     }
-
     // console.log(totalBalance);
     const subValue = document.getElementById('total-expence').innerText = subTotalAmount;
-
-
 });
-
 const saveButton = document.getElementById('save-button').addEventListener('click', function() {
     const incomeTotal = incomeAmount();
 
